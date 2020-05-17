@@ -43,15 +43,11 @@ Microsoft Visual Studio 2019 (preferably latest version i.e. 16.0.3), platform t
 ### Cloning
 The very first step in order to compile Anubis is to clone this repo from GitHub to your local computer. Git is required to step futher, if not installed download it [here](https://git-scm.com). Open git bash / git cmd / cmd and enter following command:
 ```
-git clone https://github.com/danielkrupinski/Anubis.git
+git clone https://github.com/5R33CH4/Anubis.git
 ```
 `Anubis` folder should have been succesfully created, containing all the source files.
 
 ### Compiling from source
-
-When you have equiped a copy of source code, next step is opening **Anubis.sln** in Microsoft Visual Studio 2017.
-
-Then change build configuration to `Release | x86` and simply press **Build solution**.
 
 If everything went right you should receive `Anubis.dll`  binary file.
 
@@ -60,4 +56,6 @@ If everything went right you should receive `Anubis.dll`  binary file.
 Open your favorite [DLL injector](https://en.wikipedia.org/wiki/DLL_injection) and just inject `Anubis.dll` into `csgo.exe` process.
 
 When injected, menu is openable under `INSERT` key.
+
+Ultimate All-in-One Injector Compilation can be found @ https://github.com/5R33CH4/Ultimate-Injector-Compilation.
 
